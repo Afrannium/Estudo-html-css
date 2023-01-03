@@ -1,0 +1,12 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+:root{
+    --color-prime: rgb(224, 16, 16);
+    --color-second: rgb(59, 129, 233);
+    --color-third: 
+}
