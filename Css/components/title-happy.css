@@ -1,0 +1,26 @@
+.title{
+    background-color: var(--color-second);
+    width:500px;
+    height: 180px;
+    margin-left: 91px;
+    margin-top: 186px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px 0 var(--black-first);
+ }
+
+ .title > h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    color: var(--color-first);
+    margin-top: 38px;
+    text-shadow: 4px 4px 0 var(--color-third);
+
+ }
+
+ .title > h2 {
+    font-family: 'Fira Code', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 0 var(--color-third);
+ }
