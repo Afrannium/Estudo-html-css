@@ -6,7 +6,7 @@
     background-color: var(--color-second);
     width:320px;
     height: 130px;
-    padding: 14px 12px;
+    padding: 12px 12px;
     margin-left: 91px;
     margin-top: 140px;
     display: inline-block;
@@ -16,7 +16,7 @@
 
  #title h1 {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     color: var(--color-first);
     margin-top: 26px;
     text-shadow: 4px 4px 0 var(--color-third);
@@ -25,8 +25,8 @@
 
  #title h2 {
     font-family: 'Fira Code', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     text-shadow: 2.5px 2.5px 0 var(--black-first);
-    margin-top: 32px;
+    margin-top: 23px;
  }
