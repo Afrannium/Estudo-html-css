@@ -1,4 +1,8 @@
-.title{
+#banner{
+    background-image: url(); 
+}
+
+#title{
     background-color: var(--color-second);
     width:500px;
     height: 180px;
@@ -9,7 +13,7 @@
     box-shadow: 5px 5px 0 var(--black-first);
  }
 
- .title > h1 {
+ #title > h1 {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 30px;
     color: var(--color-first);
@@ -18,9 +22,10 @@
 
  }
 
- .title > h2 {
+ #title > h2 {
     font-family: 'Fira Code', sans-serif;
     font-size: 28px;
     color: white;
     text-shadow: 3px 3px 0 var(--color-third);
+    margin-top: 32px;
  }
