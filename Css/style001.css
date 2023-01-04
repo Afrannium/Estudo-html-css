@@ -9,18 +9,22 @@
     --black-thirt: lightgray;
 }
 
+body{
+    max-height: 100vw;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     background: var(--color-second);
-    border-bottom: 10px solid var(--color-forth);
+    border-bottom: 10px solid var(--black-first);
     padding: 10px 20px
 }
 
-h2{
+#logo{
     font-family: "Press Start 2P", sans-serif ;
     color: var(--color-first);
-    text-shadow: 5px 5px 0 var(--color-third);
+    text-shadow: 3px 3px 0 var(--color-third);
     font-size: 20px;
 
 }
@@ -29,7 +33,7 @@ nav{
     text-align: right;    
 }
 
-a{
+.header-buttos{
     display: inline-flex;  
     align-items: center;
     color: var(--color-first);
@@ -40,7 +44,7 @@ a{
     margin-right: 30px;
 }
 
-a:not(#button)::before { 
+.header-buttos:not(#button)::before { 
     content: "";
     background-color: var(--color-third);
     width: 10px;
@@ -51,12 +55,71 @@ a:not(#button)::before {
 #button{
     background: var(--color-third);
     padding: 18px 20px;
-    box-shadow: 5px 5px 0 var(--color-forth);
+    box-shadow: 5px 5px 0 var(--black-first);
     margin-right: 0;
     transition: transform 100ms linear;
 }
 
 #button:hover{
+    background-color: var(--color-first);
+    color: var(--color-third);
+    transform: scale(1.1);
+}
+
+.banner{
+
+}
+
+.title{
+    background-color: var(--color-second);
+    width:500px;
+    height: 180px;
+    margin-left: 91px;
+    margin-top: 186px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px 0 var(--black-first);
+ }
+
+ .title > h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    color: var(--color-first);
+    margin-top: 38px;
+    text-shadow: 4px 4px 0 var(--color-third);
+
+ }
+
+ .title > h2 {
+    font-family: 'Fira Code', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 0 var(--color-third);
+ }
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    margin-left: 160px;
+    max-width: 360px;
+    max-height: 70px;
+}
+
+.buttons > a {
+    background: var(--color-third);
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 var(--black-first);
+    margin-right: 0;
+    transition: transform 100ms linear;
+    color: var(--color-first);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.buttons > a:hover{
     background-color: var(--color-first);
     color: var(--color-third);
     transform: scale(1.1);
