@@ -4,11 +4,11 @@
 
 #title{
     background-color: var(--color-second);
-    width:500px;
-    height: 180px;
+    width:320px;
+    height: 130px;
     padding: 14px 12px;
     margin-left: 91px;
-    margin-top: 186px;
+    margin-top: 140px;
     display: inline-block;
     text-align: center;
     box-shadow: 5px 5px 0 var(--black-first);
@@ -16,17 +16,17 @@
 
  #title h1 {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--color-first);
-    margin-top: 38px;
+    margin-top: 26px;
     text-shadow: 4px 4px 0 var(--color-third);
 
  }
 
  #title h2 {
     font-family: 'Fira Code', sans-serif;
-    font-size: 28px;
+    font-size: 17px;
     color: white;
-    text-shadow: 3px 3px 0 var(--color-third);
+    text-shadow: 2.5px 2.5px 0 var(--black-first);
     margin-top: 32px;
  }

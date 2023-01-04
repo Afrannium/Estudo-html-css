@@ -1,27 +1,28 @@
-.buttons{
+.buttons-area{
     display: flex;
     justify-content: space-between;
-    margin-top: 38px;
-    margin-left: 170px;
-    max-width: 360px;
-    max-height: 70px;
+    align-items: center;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 123px;
 }
 
-.buttons > a {
-    background: var(--color-third);
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0 var(--black-first);
-    margin-right: 0;
-    transition: transform 100ms linear;
-    color: var(--color-first);
-    text-decoration: none;
-    font-size: 18px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+.buttons {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--color-third);
+    padding: 12px 16px;
+    font-size: 15px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
     font-weight: 500;
+    text-decoration: none;
+    transition: 100ms linear;
+    color: var(--color-first);
+    box-shadow: 4px 4px 0 var(--black-first);
 }
 
-.buttons > a:hover{
+.buttons:hover {
     background-color: var(--color-first);
     color: var(--color-third);
-    transform: scale(1.1);
+    transform: scale(1.1)
 }
