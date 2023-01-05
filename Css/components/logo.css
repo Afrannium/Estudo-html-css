@@ -1,0 +1,12 @@
+.box-logo {
+    
+}
+
+.logo {
+    font-family: "Press Start 2P", sans-serif ;
+    color: var(--color-first);
+    text-shadow: 3px 3px 0 var(--color-third);
+    font-size: 20px;
+    margin-top: 10px;
+    
+}

@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-second);
+    border-bottom: 5px solid var(--black-first);
+    padding: 8px 20px
+}
+
+.header .navigation {
+    text-align: right; 
+    display: inline-flex;  
+    align-items: center;      
+}

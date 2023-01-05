@@ -1,0 +1,23 @@
+.clickers{
+    display: inline-flex;   
+    align-items: center;     
+    color: var(--color-first);
+    font-size: 15px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 17px;
+    transition: 100ms linear;
+}
+
+.clickers::before { 
+    content: "";
+    background-color: var(--color-third);
+    width: 7px;
+    height: 7px;
+    margin-right: 4px;
+}
+
+.clickers:hover {
+    border-bottom: solid 1px var(--color-first);
+}
