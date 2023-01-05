@@ -1,3 +1,12 @@
+.buttons-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 123px;
+}
+
 .buttons {
     display: inline-flex;
     align-items: center;
