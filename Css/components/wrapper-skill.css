@@ -1,0 +1,17 @@
+.wrapper-skill {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-skill .skill-tec.-space {
+    margin-left: 80px;
+}
+
+.wrapper-skill .skill-tec {
+    width: 330px;
+}
