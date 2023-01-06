@@ -8,10 +8,14 @@
     margin-right: auto;
 }
 
-.wrapper-skill .skill-tec.-space {
+.wrapper-skill .skill-tec:nth-child(odd) {
     margin-left: 80px;
 }
 
 .wrapper-skill .skill-tec {
     width: 330px;
+}
+
+.wrapper-skill .title {
+    margin-bottom: 15px;
 }

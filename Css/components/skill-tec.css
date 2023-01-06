@@ -10,11 +10,6 @@
     margin-right: 15px;
 }
 
-.skill-tec img {
-    width: 80px;
-    height: 80px;
-}
-
 .skill-tec .right {
     display: flex;
     flex-direction: column;
