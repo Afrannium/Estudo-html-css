@@ -1,8 +1,8 @@
-.clickers{
+.link-clickers{
     display: inline-flex;   
     align-items: center;     
     color: var(--color-first);
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
@@ -10,7 +10,7 @@
     transition: 100ms linear;
 }
 
-.clickers::before { 
+.link-clickers::before { 
     content: "";
     background-color: var(--color-third);
     width: 7px;
@@ -18,6 +18,6 @@
     margin-right: 4px;
 }
 
-.clickers:hover {
+.link-clickers:hover {
     border-bottom: solid 1px var(--color-first);
 }

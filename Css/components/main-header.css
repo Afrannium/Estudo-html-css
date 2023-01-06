@@ -1,4 +1,4 @@
-.header{
+.main-header{
     display: flex;
     justify-content: space-between;
     background: var(--color-second);
@@ -6,8 +6,8 @@
     padding: 8px 20px
 }
 
-.header .navigation {
+.main-header .navigation {
     text-align: right; 
     display: inline-flex;  
-    align-items: center;      
+    align-items: center;   
 }

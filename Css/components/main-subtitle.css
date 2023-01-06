@@ -1,14 +1,14 @@
-.subtitle {
+.main-subtitle {
     font-family: 'Fira Code', sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     color: white;
     text-shadow: 2.5px 2.5px 0 var(--black-first);
     text-align: center;
-    margin-top: 30px;
+    margin-top: 45px;
     padding: 0 0 15px 0;
  }
 
-.subtitle.-second {
+.main-subtitle.-second {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 28px;
     color: white;
