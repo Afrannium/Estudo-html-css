@@ -12,6 +12,11 @@
     margin-left: 80px;
 }
 
+.wrapper-skill img {
+    height: 90px;
+    width: 85px;
+}
+
 .wrapper-skill .skill-tec {
     width: 330px;
 }
