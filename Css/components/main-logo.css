@@ -2,7 +2,7 @@
     font-family: "Press Start 2P", sans-serif ;
     color: var(--color-first);
     text-shadow: 3px 3px 0 var(--color-third);
-    font-size: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 22px;
+    padding-top: 16px;
+    padding-bottom: 8px;
 }
