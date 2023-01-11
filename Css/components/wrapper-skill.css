@@ -12,7 +12,10 @@
     margin-left: 80px;
 }
 
-.wrapper-skill img {
+.wrapper-skill .img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 90px;
     width: 85px;
 }

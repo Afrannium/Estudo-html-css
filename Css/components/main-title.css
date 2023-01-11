@@ -1,17 +1,17 @@
-.area{
+.title-area{
    display: flex;
    flex-direction: column;
    justify-content: center;
    background-color: var(--color-second);
    height: 200px;
-   width: 450px;
+   width: 400px;
    box-shadow: 5px 5px 0 var(--black-first);
    margin-bottom: 30px;
  }
 
  .main-title {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     color: var(--color-first);
     text-shadow: 4px 4px 0 var(--color-third);
     text-align: center;
