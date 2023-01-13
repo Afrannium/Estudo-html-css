@@ -1,23 +1,31 @@
+.navigation {
+    text-align: right; 
+    display: inline-flex;  
+    align-items: center;   
+}
+
 .link-clickers{
     display: inline-flex;   
     align-items: center;     
-    color: var(--color-first);
-    font-size: 17px;
+    color: var(--white-first);
+    font-size: 18px;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
+    text-shadow: 2px 2px 0 var(--blue-third);
     margin-right: 17px;
     transition: 100ms linear;
 }
 
 .link-clickers::before { 
     content: "";
-    background-color: var(--color-third);
-    width: 7px;
-    height: 7px;
+    background-color: var(--blue-third);
+    width: 8px;
+    height: 8px;
     margin-right: 4px;
+    border-radius: 50%;
 }
 
 .link-clickers:hover {
-    border-bottom: solid 1px var(--color-first);
+    border-bottom: solid 3px var(--blue-third);
 }
