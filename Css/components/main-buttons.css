@@ -9,7 +9,7 @@
     text-decoration: none;
     transition: 100ms linear;
     color: var(--color-first);
-    box-shadow: 4px 4px 0 var(--black-first);
+    box-shadow: 4px 4px 0 var(--white-second);
 }
 
 .main-buttons:hover {
