@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--blue-third);
+    background-color: var(--blue-second);
     padding: 4px 8px 4px 3px;
     border-radius: 15%;
     box-shadow: 3px 3px 0 var(--white-second);
