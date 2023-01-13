@@ -2,12 +2,6 @@
     display: flex;
     justify-content: space-between;
     background: var(--blue-first);
-    border-bottom: 4px solid var(--white-second);
-    padding: 7px 20px
-}
-
-.main-header .navigation {
-    text-align: right; 
-    display: inline-flex;  
-    align-items: center;   
+    border-bottom: 6px solid var(--white-first);
+    padding: 5px 20px 9px;
 }
