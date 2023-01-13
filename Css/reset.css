@@ -1,11 +1,9 @@
 :root{
-    --color-first:  #a00000;
-    --color-second: #e66500;
-    --color-third: #faab06; 
-    --color-forth: #bb0000;
-    --black-first: black;
-    --black-second: gray;
-    --black-thirt: lightgray;
+    --blue-first: #92BCE4;
+	--blue-second: #77ADE3;
+	--blue-third: #4790E1;
+	--white-first: #F0EEE8;
+	--white-second: #D5DEE8;
 }
 
 html, body, div, span, applet, object, iframe,
