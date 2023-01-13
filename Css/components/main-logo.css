@@ -1,8 +1,22 @@
+.logo-area{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-second);
+    padding: 4px 8px 4px 3px;
+    border-radius: 15%;
+    box-shadow: 3px 3px 0 var(--white-second);
+}
+
 .main-logo {
-    font-family: "Press Start 2P", sans-serif ;
-    color: var(--color-first);
-    text-shadow: 3px 3px 0 var(--color-third);
-    font-size: 22px;
-    padding-top: 16px;
-    padding-bottom: 8px;
+    font-family: "Barlow", sans-serif ;
+    color: var(--white-first);
+    text-shadow: 2px 2px 0 var(--blue-third);
+    font-size: 23px;
+    padding-bottom: 4px;
+}
+
+img {
+    height: 55px;
+    width: 55px;
 }
