@@ -2,9 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
     background-color: var(--blue-first);
     height: 650px;
     border-bottom: 7px solid var(--white-first);  
+    background-image: url(../../assets/img/background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
 }
