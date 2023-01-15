@@ -1,17 +1,10 @@
 .banner-area{
     display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     background-repeat: no-repeat;
+    background-color: var(--blue-first);
     height: 650px;
     border-bottom: 7px solid var(--white-first);  
-}
-
-.banner-area .banner-img {
-    width: 65%;
-    height: 100%;
-}
-
-.banner-img img{
-    height: 100%;
-    width: 100%;
 }
