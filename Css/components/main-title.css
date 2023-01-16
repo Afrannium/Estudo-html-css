@@ -21,7 +21,14 @@
    color: var(--white-first);  
    text-shadow: 2px 2px 0 var(--blue-third);
    text-align: center;
-   padding-bottom: 25px;
+   padding-bottom: 40px;
+}
+
+.main-title.-third {
+  color: var(--white-first);  
+   text-shadow: 2px 2px 0 var(--blue-third);
+   text-align: center;
+   padding-bottom: 60px;
 }
 
 .perfil-photo {
