@@ -1,13 +1,18 @@
 .skill-tec {
     display: flex;
     align-items: center;
-    font-family: 'Press Start 2P', sans-serif;
-    font-size:18px;
-    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size:20px;
+    color: var(--white-first);
 }
 
 .skill-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.icon {
+    max-height: 68px;
+    max-width: 68px;
 }
