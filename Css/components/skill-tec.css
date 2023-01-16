@@ -6,10 +6,6 @@
     color: white;
 }
 
-.skill-tec .icon {
-    margin-right: 15px;
-}
-
 .skill-tec .right {
     display: flex;
     flex-direction: column;
