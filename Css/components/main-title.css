@@ -18,8 +18,8 @@
 }
 
 .main-title.-second {
-   color: white;  
-   text-shadow: none;
+   color: var(--white-first);  
+   text-shadow: 2px 2px 0 var(--blue-third);
    text-align: center;
    padding-bottom: 25px;
 }
