@@ -1,26 +1,24 @@
 .minor-section {
-    padding-top: 50px;
-    padding-bottom: 70px;
-    height: 400px;
-    background-color: var(--color-second);
-    border-bottom: solid 4px var(--color-third);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 500px;
+    background-color: var(--blue-second);
+    border-bottom: solid 6px var(--white-second);
 }
 
 .minor-section .images {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-around;
     width: 600px;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.projects.-ball{
-        background-color: #4ea89e;
-        box-shadow: 3px 3px 0 var(--color-third);
+.project-img {
+    height: 130px;
+    width: 130px
 }
 
-.projects.-sun{
-    border: 3px solid var(--color-third);
-}
