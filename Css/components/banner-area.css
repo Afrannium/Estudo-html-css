@@ -4,7 +4,7 @@
     justify-content: center;
     background-color: var(--blue-first);
     height: 650px;
-    border-bottom: 7px solid var(--white-first);  
+    border-bottom: 6px solid var(--white-second);  
     background-image: url(../../assets/img/background\ 2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
