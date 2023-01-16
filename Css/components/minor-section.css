@@ -6,6 +6,14 @@
     border-bottom: solid 6px var(--white-second);
 }
 
+.minor-section.-second {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 600px;
+    background-color: var(--blue-second);
+    border-bottom: solid 6px var(--white-second);
+} 
+
 .minor-section .images {
     display: flex;
     align-items: center;
