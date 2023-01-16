@@ -15,6 +15,6 @@
 .main-buttons:hover {
     background-color: var(--blue-third);
     color: var(--white-first);
-    box-shadow: 3px 3px 0 var(--white-first);
+    box-shadow: none;
     transform: scale(1.1)
 }
