@@ -1,4 +1,10 @@
 .main-form {
+    display: flex;
+    flex-direction: column;
     background-color: var(--blue-third);
-    height: 800px;
+    padding: 30px 30px
+}
+
+.main-form .main-input {
+    margin-bottom: 30px;
 }
