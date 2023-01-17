@@ -1,9 +1,13 @@
+body{
+    display: inline-flex;
+    flex-direction: column;
+}
+
 .banner-area{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--blue-first);
-    height: 650px;
+    height: 530px;
     border-bottom: 6px solid var(--white-second);  
     background-image: url(../../assets/img/background\ 2.jpg);
     background-repeat: no-repeat;
