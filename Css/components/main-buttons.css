@@ -13,7 +13,7 @@
 }
 
 .main-buttons.-second{
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     width: 450px;
     justify-content: center;
     box-shadow: none;
