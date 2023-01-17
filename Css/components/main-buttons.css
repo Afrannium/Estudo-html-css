@@ -12,8 +12,21 @@
     box-shadow: 3px 3px 0 var(--white-second);
 }
 
+.main-buttons.-second{
+    width: 320px;
+    justify-content: center;
+    box-shadow: none;
+}
+
 .main-buttons:hover {
     background-color: var(--blue-third);
+    color: var(--white-first);
+    box-shadow: none;
+    transform: scale(1.1)
+}
+
+.main-buttons.-second:hover {
+    background-color: var(--blue-first);
     color: var(--white-first);
     box-shadow: none;
     transform: scale(1.1)
