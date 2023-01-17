@@ -14,6 +14,10 @@
     border-bottom: solid 6px var(--white-second);
 } 
 
+.minor-section.-third {
+    background-color: var(--blue-third)
+}
+
 .minor-section .images {
     display: flex;
     align-items: center;
