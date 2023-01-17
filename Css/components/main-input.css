@@ -7,6 +7,10 @@
     width: 100%;
 }
 
+.main-input.-textarea{
+    height: 320px;
+}
+
 .main-input.-third{
     height: 40px;
     width: 320px;
